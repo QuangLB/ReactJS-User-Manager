@@ -11,6 +11,7 @@ import Main from "./Components/Main";
 import Detail from "./detail";
 import Edit from "./Edit";
 import LogIn from "./Pages/LogIn";
+import Signup from "./Pages/Signup";
 import Player from "./Player";
 
 const Routes = (props) => {
@@ -41,6 +42,9 @@ const Routes = (props) => {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/signup">
+          <Signup />
         </Route>
       </Switch>
     </Router>

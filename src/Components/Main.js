@@ -7,8 +7,8 @@ export default function Main() {
           <p className="lead fw-normal">
             Chào mừng các bạn đến với thị trường chuyển nhượng mùa đông.
           </p>
-          <a className="btn btn-outline-secondary" href="/login">
-            Log In
+          <a className="btn btn-outline-secondary" href="/signup">
+            Sign Up
           </a>
         </div>
         <div className="product-device shadow-sm d-none d-md-block" />
