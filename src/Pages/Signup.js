@@ -5,7 +5,7 @@ export default function () {
 
             <form style={{ width: "32%" }}>
                 <div>
-                    <h2 className="card-title" style={{ color: "#426ec7" }}>Log In</h2>
+                    <h2 className="card-title" style={{ color: "#FF66CC" }}>Sign Up</h2>
                     <div className="mb-3 row">
                         <label htmlFor="staticEmail" className="col-sm-2 col-form-label">Email</label>
                         <div className="col-sm-10">
@@ -17,13 +17,11 @@ export default function () {
                         <div className="col-sm-10">
                             <input type="password" className="form-control" id="inputPassword" placeholder="Input Password" />
                         </div>
-                        <label>
-                            <input type="checkbox" defaultValue="remember-me" /> Remember me
-                        </label>
+                        
                     </div>
                 </div>
                 <div class="" align="right">
-                    <button class="btn btn-primary me-md-1" type="button">Log In</button>
+                    <button class="btn btn-primary me-md-1" type="button">Submit</button>
                     <button class="btn btn-outline-danger" type="button">Cancel</button>
                 </div>
             </form>

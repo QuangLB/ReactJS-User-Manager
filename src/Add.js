@@ -4,9 +4,6 @@ import { add } from "./API/playerAPI";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 const Addplayers = (props) => {
-  function notify() {
-    toast.dark("Hey 👋, see how easy!");
-  }
   const history = useHistory();
   const {
     register,
@@ -18,7 +15,7 @@ const Addplayers = (props) => {
       const { data } = await add(players);
       console.log(data);
       // props.onAdd(data);
-      // history.push("/players");
+      history.push("/players");
     } catch (error) {
       console.log(error);
     }

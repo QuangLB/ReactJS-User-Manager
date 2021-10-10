@@ -12,7 +12,10 @@ export default function Player(props) {
       axios.delete(
         "https://615d1b3ec298130017736401.mockapi.io/ttcn/players/" + id
       );
+      // history.push("/");
+      alert("Xoá thành công!");
       history.push("/players");
+      window.location.reload(true);
     } catch (error) {}
   };
 
